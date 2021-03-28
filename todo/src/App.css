@@ -1,0 +1,114 @@
+*, *::before, *::after
+{
+    box-sizing: border-box;
+}
+body
+{
+    background:rgba(165, 148, 161, 0.384);
+    color: rgb(175, 3, 3);
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+    background-image: url("https://image.freepik.com/free-photo/colorful-vintage-camera-pink-background_156429-1920.jpg");
+    background-size: cover;
+}
+header
+{
+    margin-left: 14%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+form 
+{
+    border: 1px hidden;
+    margin-top: -30px;
+}
+input 
+{
+    width: 350px;
+    height: 30px;
+    border: 1px hidden;
+    padding: 3px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 12%;
+}
+button
+{
+    width: 40px;
+    height: 36px;
+    color: white;
+    background-color: rgb(175, 3, 3);
+    border: 1px hidden;
+    cursor: pointer;
+}
+ul
+{
+    list-style:none;
+}
+li
+{
+    font-weight: bold;
+    width: 215px;
+    background-color: white;
+    border: 1px hidden;
+    display: inline-flex;
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 12%;
+    
+}
+.completed
+{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.navbar-nav li
+{
+    font-size: 20px;
+    width: auto;
+    padding: 0px;
+    margin-top: 0px;
+    margin-left: 12px;
+    background-color: rgba(255, 255, 0, 0);
+}
+.wel
+{
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 140px;
+}
+.signin
+{
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.signin input
+{
+    margin-left: 70px;
+    width: 400px;
+    height: 40px;
+}
+.signin input[type="password"]
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.signin button
+{
+    width: 150px;
+    height: 40px;
+    margin-top: 35px;
+    font-weight: bold;
+    font-family: cursive;
+    margin-left: 18%;
+}
+.signin .login
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 16%;
+    margin-top: -80px;
+    padding-bottom: 80px;
+}
